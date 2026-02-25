@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 12 Dumbest Things Americans Waste Money On (No, It's Not Coffee)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.65;
+            color: #333;
+            background: #fafafa;
+        }
+        
+        /* DESKTOP OPTIMIZATION: Side-by-side layout */
+        .page-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px 20px 20px;
+            border-bottom: 2px solid #27ae60;
+        }
+        
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #27ae60;
+            margin-bottom: 10px;
+        }
+        
+        .updated {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* Two-column layout: content + sticky CTA sidebar */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 40px;
+            padding: 40px;
+        }
+        
+        .main-content {
+            min-width: 0;
+        }
+        
+        h1 {
+            font-size: 2.1rem;
+            line-height: 1.3;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .intro {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        
+        /* Tip sections - cleaner, more compact */
+        .tip-section {
+            margin-bottom: 50px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+        
+        .tip-header {
+            display: flex;
+            align-items: baseline;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .tip-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #27ae60;
+            flex-shrink: 0;
+        }
+        
+        .tip-section h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 0;
+        }
+        
+        .tip-section p {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .tip-section ul {
+            margin: 15px 0 15px 25px;
+            line-height: 1.8;
+        }
+        
+        .tip-section li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        /* PERFORMANCE OPTIMIZATION: Sticky sidebar with rotating CTAs */
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            height: fit-content;
+        }
+        
+        .cta-card {
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(39, 174, 96, 0.3);
+            margin-bottom: 20px;
+        }
+        
+        .cta-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .cta-card p {
+            margin-bottom: 20px;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            display: block;
+            width: 100%;
+            padding: 16px 20px;
+            background: white;
+            color: #27ae60;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: transform 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.03);
+        }
+        
+        .trust-badges {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .trust-badges h4 {
+            font-size: 1.1rem;
+            margin-bottom: 18px;
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .trust-item:last-child {
+            border-bottom: none;
+        }
+        
+        .trust-item::before {
+            content: "✓";
+            color: #27ae60;
+            font-size: 1.3rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .trust-item-text {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.5;
+        }
+        
+        @media (max-width: 968px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="header">
+            <div class="logo">🌱 GreenSprout</div>
+            <p class="updated">Updated June 06th 2025</p>
+        </div>
+        
+        <div class="content-grid">
+            <main class="main-content">
+                <h1>The 12 Dumbest Things Americans Waste Money On (No, It's Not Coffee)</h1>
+                
+                <div class="intro">
+                    <p>Let's be real: managing money can feel like a full-time job. Between bills, credit cards, subscriptions, and the occasional impulse buy, it's easy to lose track.</p>
+                    <p>I've spent years digging into the most common ways people waste money - and trust me, some of them are shockingly easy to fix.</p>
+                    <p><strong>Here are the biggest money-wasters I've found (and what to do instead):</strong></p>
+                </div>
+                
+                <!-- Tip 1 -->
+                <div class="tip-section" id="tip-1">
+                    <div class="tip-header">
+                        <span class="tip-number">1</span>
+                        <h2>Auto insurance: Cut Your Payment By $400+/year*</h2>
+                    </div>
+                    <p>Sticking with the same auto insurance year after year? It could be costing you.</p>
+                    <p>The average American family still overspends by $416* or more per year on car insurance - often without realizing it.</p>
+                    <p>I usually pull up Auto Savings - a free site that compares offers from trusted insurers. It takes just 2 minutes to see what's out there.</p>
+                    <p><strong>Here's how:</strong></p>
+                    <ul>
+                        <li>Click the button in the sidebar →</li>
+                        <li>Answer a few quick questions</li>
+                        <li>Compare real offers instantly</li>
+                    </ul>
+                    <p><em>*Savings vary by zip code and driving record.</em></p>
+                </div>
+                
+                <!-- Tip 2 -->
+                <div class="tip-section" id="tip-2">
+                    <div class="tip-header">
+                        <span class="tip-number">2</span>
+                        <h2>Getting price-gouged when you shop online</h2>
+                    </div>
+                    <p>You might be surprised how often you're overpaying on Amazon and other retailers.</p>
+                    <p>I typically hate browser extensions, but Capital One Shopping is worth it.</p>
+                    <p><strong>When you shop online it will:</strong></p>
+                    <ul>
+                        <li>Auto-apply coupon codes to save you money</li>
+                        <li>Compare prices from other sellers</li>
+                    </ul>
+                </div>
+                
+                <!-- Tip 3 -->
+                <div class="tip-section" id="tip-3">
+                    <div class="tip-header">
+                        <span class="tip-number">3</span>
+                        <h2>The savings account upgrade most people never think to make</h2>
+                    </div>
+                    <p>Most people don't realize this: some high-yield savings accounts are offering up to 4.15% APY, while the national average sits around 0.57% APY.</p>
+                    <p>Here's the math: $10,000 in a regular savings account earns you $57 per year. The same money in a high-yield account? $444 annually. That's an extra $387 just for banking somewhere smarter.</p>
+                </div>
+                
+                <!-- Continue with more tips... -->
+                
+            </main>
+            
+            <!-- STICKY SIDEBAR -->
+            <aside class="sidebar">
+                <div class="cta-card">
+                    <h3>💰 Start Saving Now</h3>
+                    <p>Compare auto insurance offers in 2 minutes and save $400+/year.</p>
+                    <a href="https://www.krishetrk.com/6RNXHT/35NQ9S5/?sub1=&sub3=&sub4=&sub5=" class="cta-button">
+                        Compare Rates →
+                    </a>
+                </div>
+                
+                <div class="trust-badges">
+                    <h4>Why Compare?</h4>
+                    <div class="trust-item">
+                        <span class="trust-item-text">Takes 2 minutes</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item-text">100% free, no obligation</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item-text">Compare 20+ insurers</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item-text">Average savings: $416/year</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-item-text">Used by 2M+ Americans</span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
